@@ -1,4 +1,4 @@
- 
+
  const inputs = document.querySelectorAll('#input');
   const button = document.getElementById('button');
 
@@ -15,5 +15,8 @@
   inputs.forEach(input => {
     input.addEventListener('input', checkInputs);
   });
-  button.disabled = true;
- 
+  button.disabled = true; 
+
+  console.log(4565645);
+  
+  
