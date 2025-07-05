@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+
+}
+
+
+.menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F0F0F0;
+
+}
+
+.box_menu {
+    display: flex;
+    padding-left: 40%;
+    gap: 10px;
+
+}
+
+
+.box_content{
+    height: 100%;
+}
+
+
+.imgs {
+    width: 18px;
+    height: 18px;
+    top: 26px;
+    left: 1446px;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 2%;
+    
+    
+    
+  }
+  .box1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+  }
+
+
+
+h1 {
+    padding-bottom: 10px;
+      font-family: Arial;
+}
+
+
+
+.many {
+    padding-top: 70px;
+    font-family: Arial;
+    padding-bottom: 20px;
+}
+
+.menuu {
+    color: black;
+    font-family: Arial;
+}
+
+.menuu_a{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: black;
+    }
+
+.gmail {
+    color: #0047FF;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+a {
+    text-decoration: none
+}
+
+
+.manyy {
+    display: flex;
+    gap: 10px;
+    
+   
+    
+}
+
+
+.manyy div {
+    width: 282px;
+    height: 160px;
+    border-radius: 15px;
+    background-color: #0047FF;
+    padding: 10px;
+    color: white;
+    h3{
+        padding-bottom: 90px;
+        padding-left: 5px;
+        font-family: Arial;
+        
+    }
+    p{
+        padding-left: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+
+}
+
+.kart{
+    padding-top: 15px;
+    display: flex;
+    font-family: Arial ;
+    color: #0047FF;
+
+
+    
+}
+
+.box_many1{
+    background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+
+}
+
+
+.box_many2{
+   background: linear-gradient(84.37deg, #5F0A87 2.27%, #A4508B 92.26%);
+
+
+}
+
+.box_many3{
+   background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+
+}
+
+.box_many4{
+   background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
+
+}
+
+.karti p {
+    padding-top: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
