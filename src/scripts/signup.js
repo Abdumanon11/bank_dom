@@ -17,6 +17,12 @@
   });
   button.disabled = true; 
 
-  console.log(4565645);
+        const buttonn = document.getElementById('button');
+
+        if (buttonn) {
+            buttonn.addEventListener('click', () => {
+                window.location.href = '/';
+            });
+        }
   
   
