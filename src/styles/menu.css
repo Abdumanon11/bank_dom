@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+
+}
+
+
+.menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F0F0F0;
+
+}
+
+.box_menu {
+    display: flex;
+    padding-left: 40%;
+    gap: 10px;
+
+}
+
+
+.box_content {
+    height: 100%;
+}
+
+
+.imgs {
+    width: 18px;
+    height: 18px;
+    top: 26px;
+    left: 1446px;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 2%;
+
+
+
+}
+
+.box1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+h1 {
+    padding-bottom: 10px;
+    font-family: Arial;
+}
+
+
+
+.many {
+    padding-top: 70px;
+    font-family: Arial;
+    padding-bottom: 20px;
+}
+
+.menuu {
+    color: black;
+    font-family: Arial;
+}
+
+.menuu_a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.gmail {
+    color: #0047FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+a {
+    text-decoration: none
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .box_menu {
+        padding-left: 20%;
+    }
+
+    .tran_box1,
+    .box5 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .box_menu {
+        padding-left: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .manyy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .manyy div {
+        width: 45%;
+        height: auto;
+    }
+
+    .tran_box1,
+    .box5 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

@@ -343,49 +343,6 @@ a {
 }
 
 
-@media screen and (max-width: 1200px) {
-    .box_menu {
-        padding-left: 20%;
-    }
-
-    .tran_box1 {
-        gap: 100px;
-    }
-
-    .box5 {
-        gap: 100px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .menu {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .box_menu {
-        padding-left: 0;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .manyy {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .manyy div {
-        width: 45%;
-        height: auto;
-    }
-
-    .tran_box1, .box5 {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .manyy div {
