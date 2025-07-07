@@ -70,6 +70,8 @@ const pages = [
 
             import('../src/scripts/menu.js')
             import('../src/scripts/many.js')
+            
+
 
         }
     },

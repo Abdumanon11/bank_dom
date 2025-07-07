@@ -89,3 +89,11 @@ function transacti(transac) {
 }
 
 transacti(transactions)
+
+const button = document.getElementById('manyy_button');
+
+if (button) {
+    button.addEventListener('click', () => {
+        window.location.href = '/dobtr';
+    });
+}

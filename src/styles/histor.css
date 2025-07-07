@@ -130,6 +130,26 @@ a {
     
     
   }
+
+  .manyy_button {
+    width: 438px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+     cursor: pointer;
+}
+.manyy_button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+
   
  
 
@@ -225,6 +245,7 @@ a {
 
 .box_tra {
   background: white;
+  padding-bottom: 40px;
 }
 
 .tran_box1 {
