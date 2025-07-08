@@ -8,6 +8,7 @@ const pages = [
             app.innerHTML = home.data
         },
         loandStyles: async () => {
+            import('../src/styles/menu.css')
             import('../src/styles/home.css')
 
 
@@ -63,6 +64,7 @@ const pages = [
 
         },
         loandStyles: async () => {
+            import('../src/styles/menu.css')
             import('../src/styles/many.css')
 
         },
@@ -88,8 +90,8 @@ const pages = [
         },
 
         loandStyles: async () => {
-            import('../src/styles/histor.css')
             import('../src/styles/menu.css')
+            import('../src/styles/histor.css')
         },
 
         loandScripts: async () => {

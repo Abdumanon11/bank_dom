@@ -79,10 +79,38 @@ h1 {
     padding-bottom: 20px;
 }
 
-.menuu {
+/* .menuu {
     color: black;
     font-family: Arial;
+} */
+
+.menuu {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
 }
+
+/* Полоска снизу при наведении */
+.menuu::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.menuu:hover::after {
+  width: 100%;
+}
+
 
 .menuu_a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
