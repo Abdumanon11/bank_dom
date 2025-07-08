@@ -43,3 +43,11 @@ if (img) {
         window.location.href = '/signin';
     });
 }
+const allMenuLinks = document.querySelectorAll('.menuu');
+const currentPath = window.location.pathname;
+
+allMenuLinks.forEach(link => {
+  if (link.getAttribute('href') === currentPath) {
+    link.classList.add('active');
+  }
+});

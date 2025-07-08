@@ -20,7 +20,7 @@
 
         if (buttonn) {
             buttonn.addEventListener('click', () => {
-                window.location.href = '';
+                window.location.href = '/';
             });
         }
 
